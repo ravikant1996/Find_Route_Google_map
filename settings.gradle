@@ -1,0 +1,10 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        google()
+        mavenCentral()
+         // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Find Route"
+include ':app'
